@@ -42,6 +42,14 @@
 
 # github
 
+## initial repository
+
+    git init
+    git add .
+    git commit -m "Initial commit"
+    git remote add origin youruser@yourserver.com:/path/to/my_project.git
+    git push origin master
+
 ## clone repository
 
     git clone https://github.com/USERNAME/REPOSITORY_NAME.git
@@ -103,8 +111,13 @@
 
     sudo npm start
 
-# react-native: additional setting
+# react-native
 
+## uninstall npm package on react native
+npm uninstall {package name} -save
+
+## additional setting
+## watchman todo install
     typerscript error
         javasript.validate: disable
     add local.properties in android/gradle/wrapper
