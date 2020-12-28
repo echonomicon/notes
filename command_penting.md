@@ -114,7 +114,16 @@
 # react-native
 
 ## uninstall npm package on react native
-npm uninstall {package name} -save
+    npm uninstall {package name} -save
+    
+## start project
+    npm start
+    npx react-native run-android    
+## react native clear project
+    rm -rf node_modules
+    npm cache clean --force
+    npm install
+    npm start -- --reset-cache
 
 ## additional setting
 ## watchman todo install
