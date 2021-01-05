@@ -25,6 +25,14 @@
 
     xfreerdp /v:192.168.0.132 /u:skai
 
+ ## setup ssh
+    sudo pacman -S openssh
+    sudo systemctl status sshd
+    sudo nano /etc/ssh/sshd_config
+    sudo systemctl enable sshd
+    sudo systemctl start sshd
+    ssh echo@192.168.43.251
+
 # routing: add routing
 
     sudo ip route add xx.xx.xx.x/24 via 192.168.0.1 metric 100 dev wlp3s0
