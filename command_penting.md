@@ -121,6 +121,32 @@
 
 # react-native
 
+## create project
+    npx react-native init ProjectName
+    npm i @react-native-async-storage/async-storage
+    npm i @react-native-community/clipboard
+    npm i @react-native-firebase/app
+    npm i @react-native-firebase/messaging
+    npm i axios
+    npm i @react-navigation/stack
+    npm i @react-navigation/native
+    npm i @react-navigation/bottom-tabs
+    npm i geolib
+    npm i react-native-camera
+    npm i react-native-dotenv
+    npm i react-native-flash-message
+    npm i react-native-geolocation-service
+    npm i react-native-svg
+    npm i react-native-svg-transformer
+    npm i react-native-tab-view
+    npm i react-native-vector-icons
+    npm i react-redux
+    npm i redux
+    npm i redux-thunk
+    npm i rn-sliding-up-panel
+    npm i watchman
+    npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
 ## uninstall npm package on react native
     npm uninstall {package name} -save
     
@@ -132,6 +158,10 @@
     npm cache clean --force
     npm install
     npm start -- --reset-cache
+## build apk
+    cd android
+    ./gradlew assembleDebug
+    ./gradlew bundleRelease
 
 ## additional setting
 ## watchman todo install
