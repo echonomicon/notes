@@ -25,7 +25,8 @@
 
     xfreerdp /v:192.168.0.132 /u:skai
 
- ## setup ssh
+## setup ssh
+
     sudo pacman -S openssh
     sudo systemctl status sshd
     sudo nano /etc/ssh/sshd_config
@@ -84,6 +85,8 @@
 
 ## flutter web
 
+    export CHROME_EXECUTABLE=/mnt/c/Program\ Files/Google/Chrome/Application/chrome.exe
+
     flutter build web
     cd build/web/
     python -m http.server 8000
@@ -122,6 +125,7 @@
 # react-native
 
 ## create project
+
     npx react-native init ProjectName
     npm i @react-native-async-storage/async-storage
     npm i @react-native-community/clipboard
@@ -148,23 +152,32 @@
     npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
 
 ## uninstall npm package on react native
+
     npm uninstall {package name} -save
-    
+
 ## start project
+
     npm start
-    npx react-native run-android    
+    npx react-native run-android
+
 ## react native clear project
+
     rm -rf node_modules
     npm cache clean --force
     npm install
     npm start -- --reset-cache
+
 ## build apk
+
     cd android
-    ./gradlew assembleDebug
+    ./gradlew clean
+    ./gradlew assembleRelease
     ./gradlew bundleRelease
 
 ## additional setting
+
 ## watchman todo install
+
     typerscript error
         javasript.validate: disable
     add local.properties in android/gradle/wrapper
