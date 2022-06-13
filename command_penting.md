@@ -70,6 +70,15 @@
 
 # flutter
 
+## install flutter
+
+### install git
+    winget install --id Git.Git -e --source winget
+
+### install flutter
+    git clone https://github.com/flutter/flutter.git -b stable
+
+
 ## flutter connect device
 
     adb tcpip 5555
