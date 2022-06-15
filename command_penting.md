@@ -70,14 +70,32 @@
 
 # flutter
 
-## install flutter
+## How to install flutter
 
-### install git
+### 1. install git
+
     winget install --id Git.Git -e --source winget
 
-### install flutter
+### 2. install flutter
+
     git clone https://github.com/flutter/flutter.git -b stable
 
+### 3. update path
+
+    D:\Development\flutter\bin
+
+### 4. install android studio
+
+    https://developer.android.com/studio#downloads
+
+### 5. install text editor (visual studio code)
+
+    https://code.visualstudio.com/download
+
+### 6. flutter doctor
+
+    flutter doctor
+    flutter doctor --android-licenses
 
 ## flutter connect device
 
