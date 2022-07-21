@@ -84,9 +84,10 @@
 
     D:\Development\flutter\bin
 
-### 4. install android studio
+### 4. install android studio / JDK (Java)
 
     https://developer.android.com/studio#downloads
+    https://www.oracle.com/java/technologies/downloads/#jdk18-windows
 
 ### 5. install text editor (visual studio code)
 
@@ -96,6 +97,10 @@
 
     flutter doctor
     flutter doctor --android-licenses
+
+### 7. pubspect assist
+
+    https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist
 
 ## flutter connect device
 
